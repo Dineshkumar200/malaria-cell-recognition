@@ -1,13 +1,15 @@
-### EXP NO: 04
+### EX NO: 04
 
-### .
+### DATE: 03/10/2022
 
-# <p align = "center"> Deep Neural Network for Malaria Infected Cell Recognition </p>
+
+# <br><p align = "center"> Deep Neural Network for Malaria Infected Cell Recognition </p>
+
 ## AIM
 
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
 
-## Problem Statement and Dataset
+## <br><br>Problem Statement and Dataset
 Malaria dataset of 27,558 cell images with an equal number of parasitized and uninfected cells. A level-set based algorithm was applied to detect and segment the red blood cells. The images were collected and annotated by medical professionals.Here we build a convolutional neural network model that is able to classify the cells.
 
 
@@ -44,6 +46,8 @@ Fit the model and predict the sample input.
 ```python
 # Developed By:DINESHKUMAR V
 # Register Number:212220230013
+
+
 import os
 import pandas as pd
 import numpy as np
@@ -161,18 +165,18 @@ else:
 ![plot](https://user-images.githubusercontent.com/75235789/194709070-9e69460e-a0ed-406f-beca-0b54fedccfe3.png)
 
 
-### Confusion Matrix
+### <br><br><br>Confusion Matrix
 
 ![cm](https://user-images.githubusercontent.com/75235789/194709311-bbb4c681-32ea-427b-b81b-6ee9c8cf53d7.png)
-### Classification Report 
+### <br><br><br><br><br><br><br><br><br><br><br><br>Classification Report 
 ![cr](https://user-images.githubusercontent.com/75235789/194709332-fb7ef7cf-7b54-4bdb-b4bc-39217579ec1d.png)
 
 
-### New Sample Data Prediction
+### <br><br><br><br>New Sample Data Prediction
 
 ![Screenshot (437)](https://user-images.githubusercontent.com/75235789/194709349-c2391401-0de8-475d-ba5a-e5c806ddac6c.png)
 
 
-## RESULT
+## <br><br><br><br><br><br><br>RESULT
  Thus, a deep neural network for Malaria infected cell recognition is developed and  the performance is analyzed.
 
